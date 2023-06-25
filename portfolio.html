@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <title>Jeet-Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header>
+    <nav id="top">
+      <div class="left">Jeet's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#WorkExperience">WorkExperience</a></li>
+          <li><a href="#contact">Contact me</a></li>
+          <li><a href="#About">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection" id="home">
+      <div class="leftSection">
+        Hi,I am <span class="Purple">Jeet</span>
+        <div>and I am a</div>
+        <div>
+          <span id="element"></span>
+        </div>
+        <a href="Resume.pdf" target="_blank"><button id="b1">Download Resume</button></a>
+      </div>
+      <div class="rightSection">
+        <img src="PIC1.jpg" alt="My Pic" height="250">
+      </div>
+    </section>
+    <hr>
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web devloper', 'C Language', 'Java Devloper'],
+      typeSpeed: 50,
+    });
+  </script>
+
+  <section class="secondSection" id="WorkExperience">
+    <h1>Work Experience</h1>
+    <div>
+      I have worked as an freelencer for<p class="gray">six months</p>
+    </div>
+
+    <div>
+      <ul>
+        <li>HTML</li>
+        <span>ipsum, dolor sit amet consectetur adipisicing elit. Incidunt perferendis harum soluta error atque rem qui
+          corrupti aspernatur neque sed magnam porro, magni, molestiae saepe. Dolore accusamus tempora neque
+          expedita!</span>
+        <li>CSS</li>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, atque quis. Atque accusamus quaerat alias,
+          perspiciatis officia mollitia repudiandae omnis veniam doloremque, eos libero modi quam qui ex nobis
+          voluptas.</span>
+        <li>Javascript</li>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ullam quod eum officiis sint, ea
+          commodi consequuntur porro mollitia delectus. Ducimus similique aut illum nobis, eos saepe vitae quae
+          est?</span>
+      </ul>
+    </div>
+    <img src="PIC1_2.jpg" alt="Developer">
+  </section>
+
+  <hr>
+
+  <section id="contact">
+    <main>
+      <h3 class="title">Enter the following information:</h3>
+      <form method="get">
+        <table>
+          <tr>
+            <td><span class="size">Name</span></td>
+            <td><input type="text" name="Name" id="Name" placeholder="Enter your name"></td>
+          </tr>
+          <tr>
+            <td><span class="size">Contact Number</span></td>
+            <td>
+              <select name="Country" id="code">
+                <option value="Demo">CC</option>
+                <option value="+91">+91</option>
+                <option value="+93">+93</option>
+                <option value="+61">+61</option>
+                <option value="+54">+54</option>
+                <option value="+880">+880</option>
+                <option value="+1">+1</option>
+              </select>
+              <input type="text" name="Contact No" id="CNo" minlength="10" maxlength="10" placeholder="1234056789">
+            </td>
+          </tr>
+          <tr>
+            <td><span class="size">Email</span></td>
+            <td><input type="email" name="Email" id="Email" placeholder="abc@gmail.com"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" class="button"></td>
+            <td><input type="reset" class="button"></td>
+          </tr>
+        </table>
+      </form>
+    </main>
+    <br>
+    <h3 class="title">My contact information</h3>
+    <br>
+    <div class="div1">
+      Contact:<a href="Tel:+917572929341">+917572929341</a><br> <br>
+      Email: <a href="mailto:jeetmaheshwari1919@gmail.com?">jeetmaheshwari1919@gmail.com</a>
+    </div>
+    </div>
+  </section>
+
+    <hr>
+
+  <section id="About">
+    <h3 class="title">Skills</h3>
+    <div class="skill">
+     <p>HTML</p>
+     <p>CSS</p>
+     <p>Javascript</p>
+     <p>Jquery</p>
+     <p>Java</p>
+     <p>C</p>
+    </div>
+
+    <h3>Education</h3>
+    <div class="education">
+      <p>10<sup>th</sup></p>
+       <div class="dec">I have completed my tenth grade in GSEB with 70%.</div>
+      <p>12<sup>th</sup></p>
+       <div class="dec">I have done twelth commerce in GSEB with 84%.</div>
+      <p>BCA(Bachelor of computer application)</p>
+      <div class="dec">I currently doing BCA and I am in sem-3</div>
+    </div>
+  </section>
+      <br><br>
+  <footer>
+    <div>
+      <img src="jeet_logo.png" alt="Portfolio_Logo" class="logo">
+    </div>
+    <div>
+      <img src="logo.jpg" alt="HTML_Logo">
+    </div>
+    <div>
+      www.jeetportfolio.com<br><br>All rights reserved<br><br>&copy;CopyRight
+    </div>
+    <div>
+
+    </div>
+    <div>
+      Contact No:+917572929341<br> <br>
+      Email: <br><a href="mailto:jeetmaheshwari1919@gmail.com?">jeetmaheshwari1919@gmail.com</a>
+    </div>
+  </footer>
+</body>
+</html>

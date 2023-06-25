@@ -1,0 +1,217 @@
+body {
+  background-color: rgb(4, 4, 53);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(22, 22, 79);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(191, 191, 248);
+  font-weight: 900;
+  font-size: large;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 3.1rem;
+}
+
+.Purple {
+  color: purple;
+}
+
+#element {
+  color: purple;
+}
+
+#b1{
+  padding: 20px;
+  font-size: medium;
+  background-color: orange;
+  border: 2px solid white;
+  color: white;
+}
+
+hr {
+  border: 0;
+  background: rgb(191, 191, 248);
+  height: 3px;
+  margin: 30px;
+}
+
+.secondSection h1 {
+  margin-left: 90px;
+  font-size: 3.5rem;
+}
+
+.secondSection img {
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.secondSection div {
+  margin-left: 90px;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.gray {
+  color: purple;
+}
+
+.secondSection ul li {
+  font-size: 40px;
+  list-style: square;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.secondSection span {
+  font-size: 15px;
+}
+
+footer {
+  background-color: rgb(22, 22, 79);
+  height: 250px;
+  margin: 20px 0px;
+  display: flex;
+}
+
+footer div {
+  margin: 20px;
+  justify-content: space-around;
+  align-self: center;
+}
+
+footer div a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 200px;
+}
+
+.blue {
+  color: blue;
+}
+
+.pink {
+  color: pink;
+}
+
+.powderblue {
+  color: rgb(4, 154, 174);
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 20px;
+  padding-right: 800px;
+}
+
+form {
+  margin: 20px;
+}
+
+tr,
+td {
+  padding: 10px;
+}
+
+.size {
+  font-size: 1.5rem;
+}
+
+hr {
+  border: 0;
+  background: rgb(191, 191, 248);
+  height: 3px;
+  margin: 30px;
+}
+
+.div1 {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+}
+
+.skill>p{
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+}
+
+.education>p{
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.dec{
+    margin-left: 50px;
+    font-size: 1.3rem;
+}
+
+.button{
+  padding: 20px;
+  font-size: medium;
+  background-color: orange;
+  border: 2px solid white;
+  color: white;
+}
